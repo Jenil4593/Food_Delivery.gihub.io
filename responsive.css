@@ -1,0 +1,116 @@
+/* Navbar */
+/* #navbar
+{
+    flex-direction: column;
+} */
+
+#navbar ul
+{
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li
+{
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+}
+
+#navbar ul li a
+{
+    padding: 0px 11px;
+}
+
+
+.ham
+{
+    left: 10px;
+}
+
+.sidebar
+{
+    min-height: 100vh;
+}
+/* Home */
+#home
+{
+    height: 371px;
+    padding: 3px 68px;
+}
+
+#home::before
+{
+    height: 531px;
+}
+
+#home p
+{
+    font-size: 13px;
+}
+
+/* Services */
+#services
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .box
+{
+    border: 3px solid brown;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: rgb(233, 149, 149);
+    opacity: 0.89;
+    justify-content: space-evenly;
+    width: 242px;
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+}
+/* Contact */
+#clients
+{
+    overflow: hidden;
+}
+
+.clients
+{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients img
+{
+    width: 82px;
+}
+
+.client-item
+{
+    /* padding: 40px; */
+    padding: 2px;
+    padding-left: 45px;
+}
+
+/* Footer */
+
+/* Utility Classes */
+.h-primary
+{
+    font-size: 26px;
+    /* display: block; */
+}
+
+.center
+{
+    padding: 3px 8px;
+    font-size: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
